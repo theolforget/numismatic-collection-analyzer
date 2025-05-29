@@ -1,4 +1,4 @@
-# Theo Forget - Numismatic Collection Analyzer
+# Theo Forget - Numismatic ETL Pipeline
 # Date: May 29th, 2025
 
 # Byte-compiled / optimized / DLL files
@@ -7,35 +7,28 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# Distribution / packaging
+# Virtual environments and dependencies
+.venv/
+env/
+ENV/
+venv/
+env.bak/
+venv.bak/
 .Python
+
+# Data files (CSV, output logs)
+*.csv
+
+# Installer logs and distributions
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Coverage and test outputs
 htmlcov/
 .tox/
 .nox/
@@ -51,25 +44,13 @@ coverage.xml
 *.mo
 *.pot
 
-# Jupyter Notebook local files
-*.ipynb_checkpoints
-
-# Data files (optional, include this if your CSVs are generated)
-*.csv
-
-# Environment files
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE / editor folders
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *~
 .DS_Store
 Thumbs.db
+
+# System files
+*.DS_Store
