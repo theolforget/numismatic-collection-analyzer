@@ -1,7 +1,7 @@
 # Numismatic Collection Analyzer
 
-Theo Forget
-May 29th, 2025
+**Theo Forget**  
+**May 29th, 2025**
 
 ## Overview
 This project is a data engineering pipeline that processes and analyzes my personal collection of banknotes from Numista. It takes a messy dataset and turns it into something clear and insightful, while also pulling in live exchange rates to estimate the collection’s real-world value.
